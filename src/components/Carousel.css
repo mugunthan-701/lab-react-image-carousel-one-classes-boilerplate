@@ -1,1 +1,44 @@
 /* write your carousel css in this file */
+img{
+    height: 500px;
+    width: 500px;
+}
+.alignitems{
+    display: flex;
+    /* border: 2px solid red; */
+     align-items: center;
+}
+.carousel-title{
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    background: rgba(255, 255, 255, 0.7);
+    font-size: 50px;
+    border-radius: 10px;
+    
+}
+.carousel-subtitle{
+    width: max-content;
+    position: absolute;
+    top: 70%;
+    left: 35%;
+    background: rgba(255, 255, 255, 0.7);
+    font-size: 20px;
+    border-radius: 10px;
+}
+.arrow-back{
+    border: 2px solid black;
+    height: 496px;
+    display: flex;
+    background: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+    align-items: center;
+}
+.arrow-forward{
+    border: 2px solid black;
+    height: 496px;
+    display: flex;
+    background: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+    align-items: center;
+}

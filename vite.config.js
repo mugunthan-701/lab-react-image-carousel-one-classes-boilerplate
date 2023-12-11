@@ -6,6 +6,6 @@ export default defineConfig(() => {
     build: {
       outDir: 'build',
     },
-    plugins: [react()],
+    plugins: [react()],base:"lab-react-image-carousel-one-classes-boilerplate"
   };
 });
